@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+}
+
+.container {
+    width: 350px;
+    margin: 150px auto;
+    padding: 50px;
+    background: #3700ff;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #000000;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0 15px 0;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: steelblue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.success {
+    color: rgb(0, 255, 0);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.erro{
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}
