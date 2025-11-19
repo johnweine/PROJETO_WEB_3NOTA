@@ -18,8 +18,8 @@ function validar() {
         return mostrarErro("O e-mail deve ter pelo menos 10 caracteres.");
     }
 
-    if (!email.includes("@") || !email.includes(".")) {
-        return mostrarErro("O e-mail deve conter '@' e '.'.");
+    if (!email.includes("@") || !email.includes(".com")) {
+        return mostrarErro("O e-mail deve conter '@' e '.com'.");
     }
 
     const regexEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
